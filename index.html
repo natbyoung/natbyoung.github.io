@@ -52,6 +52,36 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 7,but placed earlier-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal7">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/tableau_dash_preview.PNG" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Python & Tableau</div>
+                                <div class="portfolio-caption-subheading text-muted">Census Data Visualization for a Small City</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 8,but placed out of order to appear earlier-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal8">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/tableau_multifam_housing_ex.PNG" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">ArcGIS Online & Tableau</div>
+                                <div class="portfolio-caption-subheading text-muted">Multifamily Housing Viewer for SLC Area</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Portfolio item 1-->
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
@@ -157,6 +187,7 @@
                             <h4>Natalie Young</h4> -->
                             <h4>M.S. Student</br>Cartography and Web Development</h4>
 							<p class="text-muted">University of Wisconsin</p>
+							<p class="text-muted">Graduating May 2024</p>
 						</div>		
 						<div class="team-member">						
                             <h4>B.S. Geographic Information Systems</h4>
@@ -184,7 +215,7 @@
 					</div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted"></br>Other skills:</br>SQL</br></br>Introductory experience or coursework in:</br> Microsoft SQL Server</br>Python</br>Javascript</br>HTML, CSS</br>Java, C#</p></div>
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted"></br>Other skills:</br>SQL</br>Python, ArcPy</br>ArcGIS Maps SDK for Javascript</br>Introductory experience or coursework in:</br> Microsoft SQL Server</br>Javascript</br>HTML, CSS</br>Java, C#</p></div>
                 </div>
             </div>
         </section>
@@ -211,7 +242,7 @@
                     <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">My aim is to continue applying GIS and visualization in a variety of fields, but especially in the people-focused fields of demographics, housing, and health. I love to help build others' skills, so I'm also very interested in teaching GIS someday.</p></div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">I'm available part-time for your mapping or analysis needs in 2022!</br>
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">I'm available part-time for your mapping or analysis needs!</br>
 					Contact <a href="mailto: nataliebyoung@gmail.com">nataliebyoung@gmail.com</a></p></div>
                 </div>
             </div>
@@ -242,6 +273,80 @@
             </div>
         </footer>
         <!-- Portfolio Modals-->
+        <!-- Portfolio item 7 modal popup 7 but placed here-->
+        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Demographic & Housing Changes Map Visualization: Python & Tableau</h2>
+                                    <p class="item-intro text-muted">Start to Finish Data Management in Python</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/tableau_dash_preview.PNG" alt="Tableau Dashboard Preview Pic Edgewood" />
+                                    <p>I created this visualization for a graduate class at the University of Wisconsin. Edgewood, Washington is a city of about 13,500 people which has grown rapidly in recent years as its single-family-dominant housing composition has changed to include large apartment complexes. This project compiles, analyzes, and shares decennial census data for the Edgewood area using Python scripts and a Tableau map visualization, allowing detailed exploration of changes in the area. Data subjects include housing units, vacancy, tenure, total population, and populations by race and ethnicity.  </p>
+									<p>The Python scripts compute the 2010-2020 changes in each topic for the area’s block groups and census tracts. Due to boundary changes across the decade, the 2010 census data needed for comparison to 2020 data were aggregated from 2010 census block data. The ArcPy mapping library is used extensively in the script. The interactive Tableau visualization includes tract and block group level maps that can be adjusted to any data topic, to display 2010, 2020, or decadal change. </p>
+									<ul class="list-inline">
+                                        <li>
+                                            <strong>Tools Used:</strong>
+                                            Python, ArcPy, Pandas, Tableau, ArcGIS Pro
+                                        </li>
+                                        <li>
+                                            <strong>Student Project</strong>
+                                            <!-- Illustration-->
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 8 modal popup 8 but placed here-->
+        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Multifamily Housing Development Visualization: ArcGIS Online & Tableau</h2>
+                                    <p class="item-intro text-muted">A friendly way to overview apartment construction by city</p>
+									<p class="portfolio-description">
+                                    Click the image to open the visualization in Tableau Public:
+									</p>
+                                    <a href="https://public.tableau.com/app/profile/natalie.young2624/viz/utah_multifamily_properties/Dashboard" target="_blank" rel="noopener noreferrer"><img class="img-fluid d-block mx-auto" src="assets/img/portfolio/tableau_multifam_housing_ex.PNG" alt="Tableau Dashboard Preview Pic Edgewood" /></a>
+                                    <p>I created this visualization for a graduate class at the University of Wisconsin. The data source is a public multifamily housing dataset that I helped develop in prior professional experience. The data are hosted on ArcGIS Online. I configured this visualization with the goal of providing both an overview of apartment construction by city, and enabling the user to view each apartment in detail. </p>
+									<ul class="list-inline">
+                                        <li>
+                                            <strong>Tools Used:</strong>
+                                            ArcGIS Online, Tableau
+                                        </li>
+                                        <li>
+                                            <strong>Student Project (Data source from professional work)</strong>
+                                            <!-- Illustration-->
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- Portfolio item 1 modal popup-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
